@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SKFSqliteLib_Example' do
+  pod 'SKFSqliteLib', :path => '../'
+
+  target 'SKFSqliteLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
