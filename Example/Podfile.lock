@@ -1,5 +1,5 @@
 PODS:
-  - SKFSqliteLib (0.1.0)
+  - SKFSqliteLib (0.1.1)
 
 DEPENDENCIES:
   - SKFSqliteLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SKFSqliteLib: cbc5471bf8d32dbf6602c68514c94dd2c33c863e
+  SKFSqliteLib: 2841d2b71747c2256bfc0947ceb5e77a3ae5ac4e
 
 PODFILE CHECKSUM: 89391d628931ba3dd8cf8a65628a0b7fb7058d60
 

@@ -49,5 +49,5 @@ push_git_tags
 
 # 5. 提交podspecs
 # pod repo push XMGFMSpecs XMGFMBase.podspec
-pod_push(path: "#{targetName}.podspec", repo: "XMGFMSpecs", allow_warnings:true)
+pod_push(path: "#{targetName}.podspec", repo: "SKFFMPrivate", allow_warnings:true)
 end

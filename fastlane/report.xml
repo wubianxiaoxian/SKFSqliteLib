@@ -5,47 +5,49 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: cocoapods" time="1.222961">
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="1.344687">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: version_bump_podspec" time="0.001597">
+      <testcase classname="fastlane.lanes" name="1: version_bump_podspec" time="0.001546">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_add" time="0.014362">
+      <testcase classname="fastlane.lanes" name="2: git_add" time="0.038884">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: git_commit" time="0.02752">
+      <testcase classname="fastlane.lanes" name="3: git_commit" time="0.037771">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: push_to_git_remote" time="1.827047">
+      <testcase classname="fastlane.lanes" name="4: push_to_git_remote" time="77.213881">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: git_tag_exists" time="0.009371">
+      <testcase classname="fastlane.lanes" name="5: git_tag_exists" time="0.012161">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.011652">
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.013913">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="0.972798">
+      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="12.369114">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: pod_push" time="7.101706">
+      <testcase classname="fastlane.lanes" name="8: pod_push" time="0.478945">
+        
+          <failure message="/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:230:in `block in execute_action'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:226:in `chdir'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:226:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:148:in `trigger_action_by_name'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/fast_file.rb:146:in `method_missing'&#10;Fastfile:52:in `block in parsing_binding'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/lane_manager.rb:52:in `cruise_lane'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/commands_generator.rb:104:in `block (2 levels) in run'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.4/lib/commander/command.rb:178:in `call'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.4/lib/commander/command.rb:153:in `run'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.4/lib/commander/runner.rb:476:in `run_active_command'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:38:in `run!'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/commander-fastlane-4.4.4/lib/commander/delegates.rb:15:in `run!'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/commands_generator.rb:303:in `run'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/fastlane/lib/fastlane/cli_tools_distributor.rb:65:in `take_off'&#10;/usr/local/lib/ruby/gems/2.4.0/gems/fastlane-2.25.0/bin/fastlane:20:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:22:in `load'&#10;/usr/local/bin/fastlane:22:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod repo push XMGFMSpecs 'SKFSqliteLib.podspec' --allow-warnings' was 1 instead of 0.&#10;Cloning spec repo `xmgfmspecs` from `XMGFMSpecs`&#10;[31m[!] Unable to find the `XMGFMSpecs` repo. If it has not yet been cloned, add it via `pod repo add`.[0m&#10;" />
         
       </testcase>
     
