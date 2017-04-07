@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13DF60246799D6221AEFBEB188F6D0A2 /* Pods-SKFSqliteLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53658FB23A78E79549CE565FCC3225CD /* Pods-SKFSqliteLib_Tests-dummy.m */; };
+		1E20F6441FDA5AA8B01FD943622C20BB /* SKFSqliteLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDD29BEA1359BE8D687FF00406C8A72 /* SKFSqliteLib-dummy.m */; };
+		21FEFB505826BD7F3A8F364756E2D5D3 /* SKFTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B844E1842196DDCD4AB7F28E6B676FC /* SKFTableTool.m */; };
+		25D51E9F548136E7A43370D731FE204D /* Pods-SKFSqliteLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 251636055D6147BB49DF4FD25C869AF9 /* Pods-SKFSqliteLib_Example-dummy.m */; };
+		31F2818EA6312F821B85469C7AF2859B /* SKFSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 63248492C083A627412C471BC20F338A /* SKFSqliteTool.m */; };
+		50FB7B682189155B11006DEB2E955F0F /* SKFSqliteLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 517B4EBCA950D9563D76E1B9850CE2BE /* SKFSqliteLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		690C814F3D5F81B5E4BFFE1EF94B7A3F /* SKFSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E556CF1466838093AEEB505B2654503 /* SKFSqliteModelTool.m */; };
+		8B205E88958E549AD0098DEBF2269459 /* Pods-SKFSqliteLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C1E5D78BABDD1D415AFEA2D3DE4039 /* Pods-SKFSqliteLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C2C100F4E67BC7EDC9902CA93505BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8F15184077E3C71F33F8C88C8EAE2007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A669A52299966CD2AC4E095BE792254C /* SKFModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 906EC6393CED3B4CBED63756BA52CDF8 /* SKFModelTool.m */; };
+		AE6D9AE94B1A1E9F1A13786B94C0AB37 /* SKFSqliteTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F51D5315606429CD9E2C215893241E /* SKFSqliteTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF10363DE0CB69A20780C72D5E33AC31 /* SKFSqliteModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E43A04B31A2D5C53A49B63DBD5D88B4 /* SKFSqliteModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE4FA6EE4939601331C7FE7B59518521 /* SKFModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 935C21828A9E009B14471C4277F2548D /* SKFModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5A836BA98C823AA76930B0056DEB6F /* Pods-SKFSqliteLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6E46C0F1422ABAF5A3D06EA296B9D1 /* Pods-SKFSqliteLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F57CF28047F9E80DAEBDE308A38E54BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F94C500727F887E90B7EDBA14B4E56FA /* SKFTableTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F045887D222351EDA12E0AE4B89C57 /* SKFTableTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88626420905DFA86D8A633F51F8FE342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B16F661C9AD41E652A544C195F2F02C;
+			remoteInfo = SKFSqliteLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FF2E8D638291D97BDFAA53CE2AFB91 /* Pods-SKFSqliteLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFSqliteLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0E556CF1466838093AEEB505B2654503 /* SKFSqliteModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFSqliteModelTool.m; sourceTree = "<group>"; };
+		10DAE1488E83F93637B2E5AEBF3398E8 /* Pods-SKFSqliteLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKFSqliteLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		131E3B954B66258A1CCC9F2124898E98 /* SKFSqliteLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKFSqliteLib-prefix.pch"; sourceTree = "<group>"; };
+		1A27B341CCBCC48CAAD5642FE610FEB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E43A04B31A2D5C53A49B63DBD5D88B4 /* SKFSqliteModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFSqliteModelTool.h; sourceTree = "<group>"; };
+		251636055D6147BB49DF4FD25C869AF9 /* Pods-SKFSqliteLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKFSqliteLib_Example-dummy.m"; sourceTree = "<group>"; };
+		25F045887D222351EDA12E0AE4B89C57 /* SKFTableTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFTableTool.h; sourceTree = "<group>"; };
+		28B33A15BDCB0055E698198145475639 /* Pods-SKFSqliteLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFSqliteLib_Example-resources.sh"; sourceTree = "<group>"; };
+		3B844E1842196DDCD4AB7F28E6B676FC /* SKFTableTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFTableTool.m; sourceTree = "<group>"; };
+		49623B612EE1A98211971088DDBCDB3A /* Pods-SKFSqliteLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFSqliteLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		517B4EBCA950D9563D76E1B9850CE2BE /* SKFSqliteLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKFSqliteLib-umbrella.h"; sourceTree = "<group>"; };
+		53658FB23A78E79549CE565FCC3225CD /* Pods-SKFSqliteLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKFSqliteLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		543110047C2F6885C5D5BF5BE4EFE42E /* Pods-SKFSqliteLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKFSqliteLib_Tests.modulemap"; sourceTree = "<group>"; };
+		57C1E5D78BABDD1D415AFEA2D3DE4039 /* Pods-SKFSqliteLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKFSqliteLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		63248492C083A627412C471BC20F338A /* SKFSqliteTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFSqliteTool.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		802A6FEBB6F93630CB8A2A0F3AF5D4C2 /* SKFSqliteLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKFSqliteLib.xcconfig; sourceTree = "<group>"; };
+		83F51D5315606429CD9E2C215893241E /* SKFSqliteTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFSqliteTool.h; sourceTree = "<group>"; };
+		850AAC74B4773395E250803FABBE7700 /* Pods_SKFSqliteLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKFSqliteLib_Tests.framework; path = "Pods-SKFSqliteLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4268A7E54B9B3FFDD8F7494724ABBF /* Pods-SKFSqliteLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKFSqliteLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EB29A6FA1B914574A8702D2612C85A7 /* Pods-SKFSqliteLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFSqliteLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		906EC6393CED3B4CBED63756BA52CDF8 /* SKFModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKFModelTool.m; sourceTree = "<group>"; };
+		935C21828A9E009B14471C4277F2548D /* SKFModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKFModelTool.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		986B16E20E57B2A17F0C4FDA9D5C974F /* Pods-SKFSqliteLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SKFSqliteLib_Example.modulemap"; sourceTree = "<group>"; };
+		A0BC1F5F0D39BF56C6CA5E65B4138F7D /* Pods_SKFSqliteLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKFSqliteLib_Example.framework; path = "Pods-SKFSqliteLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDD29BEA1359BE8D687FF00406C8A72 /* SKFSqliteLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKFSqliteLib-dummy.m"; sourceTree = "<group>"; };
+		B02AD836BEE702A6DA1E6A684D4B7903 /* SKFSqliteLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKFSqliteLib.framework; path = SKFSqliteLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B092B61B9847A436324875EF078E3F8C /* Pods-SKFSqliteLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFSqliteLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B2EEA1335BC9115A5D3BF93B38B8306F /* Pods-SKFSqliteLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFSqliteLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		BCB830F0D90B95A8C5E5F69676613614 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FFBBD369599C312A689910678A504B /* Pods-SKFSqliteLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKFSqliteLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C50A15DB0371FB2F014CA1DA91FCD3ED /* Pods-SKFSqliteLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKFSqliteLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCEDA87C22F7C696C3D14CD79810907E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CA342E7A49A582B6817C1BA17373C8 /* Pods-SKFSqliteLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKFSqliteLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE6E46C0F1422ABAF5A3D06EA296B9D1 /* Pods-SKFSqliteLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKFSqliteLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E137B1E20182C5D091D6ACE63E2B3B85 /* Pods-SKFSqliteLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKFSqliteLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE8800D41A98EDC9C1A0186684112146 /* SKFSqliteLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SKFSqliteLib.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B9E884030351EE1D514EE03213C9E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2C100F4E67BC7EDC9902CA93505BF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62087CEFE40DF45AC73DBC82AE504957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57CF28047F9E80DAEBDE308A38E54BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFD7CAEE3BA94CB5F140CB04F2F2E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F15184077E3C71F33F8C88C8EAE2007 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D3C40033BB904FA0F10CD2A0376B1F /* Pods-SKFSqliteLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CCEDA87C22F7C696C3D14CD79810907E /* Info.plist */,
+				986B16E20E57B2A17F0C4FDA9D5C974F /* Pods-SKFSqliteLib_Example.modulemap */,
+				C50A15DB0371FB2F014CA1DA91FCD3ED /* Pods-SKFSqliteLib_Example-acknowledgements.markdown */,
+				10DAE1488E83F93637B2E5AEBF3398E8 /* Pods-SKFSqliteLib_Example-acknowledgements.plist */,
+				251636055D6147BB49DF4FD25C869AF9 /* Pods-SKFSqliteLib_Example-dummy.m */,
+				C0FFBBD369599C312A689910678A504B /* Pods-SKFSqliteLib_Example-frameworks.sh */,
+				28B33A15BDCB0055E698198145475639 /* Pods-SKFSqliteLib_Example-resources.sh */,
+				57C1E5D78BABDD1D415AFEA2D3DE4039 /* Pods-SKFSqliteLib_Example-umbrella.h */,
+				8EB29A6FA1B914574A8702D2612C85A7 /* Pods-SKFSqliteLib_Example.debug.xcconfig */,
+				08FF2E8D638291D97BDFAA53CE2AFB91 /* Pods-SKFSqliteLib_Example.release.xcconfig */,
+			);
+			name = "Pods-SKFSqliteLib_Example";
+			path = "Target Support Files/Pods-SKFSqliteLib_Example";
+			sourceTree = "<group>";
+		};
+		19707708FDC859237E17B8465111A693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0BC1F5F0D39BF56C6CA5E65B4138F7D /* Pods_SKFSqliteLib_Example.framework */,
+				850AAC74B4773395E250803FABBE7700 /* Pods_SKFSqliteLib_Tests.framework */,
+				B02AD836BEE702A6DA1E6A684D4B7903 /* SKFSqliteLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EAFF300A876756D69BDD0659F8B00A8 /* SKFSqliteLib */ = {
+			isa = PBXGroup;
+			children = (
+				626838A09D7E1351D4EC537B272A94F3 /* SKFSqliteLib */,
+				691C81BCCA5386DB3AC5CB53589B7DDE /* Support Files */,
+			);
+			name = SKFSqliteLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		28926F36B6169A51F233EE054B0CF70B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EAFF300A876756D69BDD0659F8B00A8 /* SKFSqliteLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		626838A09D7E1351D4EC537B272A94F3 /* SKFSqliteLib */ = {
+			isa = PBXGroup;
+			children = (
+				DA95343324EA75F0EEEF79BD897CCB71 /* Classes */,
+			);
+			name = SKFSqliteLib;
+			path = SKFSqliteLib;
+			sourceTree = "<group>";
+		};
+		691C81BCCA5386DB3AC5CB53589B7DDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A27B341CCBCC48CAAD5642FE610FEB6 /* Info.plist */,
+				EE8800D41A98EDC9C1A0186684112146 /* SKFSqliteLib.modulemap */,
+				802A6FEBB6F93630CB8A2A0F3AF5D4C2 /* SKFSqliteLib.xcconfig */,
+				AEDD29BEA1359BE8D687FF00406C8A72 /* SKFSqliteLib-dummy.m */,
+				131E3B954B66258A1CCC9F2124898E98 /* SKFSqliteLib-prefix.pch */,
+				517B4EBCA950D9563D76E1B9850CE2BE /* SKFSqliteLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKFSqliteLib";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				28926F36B6169A51F233EE054B0CF70B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				19707708FDC859237E17B8465111A693 /* Products */,
+				8648690BB5FBA6ACD3D15F5A1622C1EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8648690BB5FBA6ACD3D15F5A1622C1EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00D3C40033BB904FA0F10CD2A0376B1F /* Pods-SKFSqliteLib_Example */,
+				9101450240480AD286E68E13B1BEA828 /* Pods-SKFSqliteLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9101450240480AD286E68E13B1BEA828 /* Pods-SKFSqliteLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCB830F0D90B95A8C5E5F69676613614 /* Info.plist */,
+				543110047C2F6885C5D5BF5BE4EFE42E /* Pods-SKFSqliteLib_Tests.modulemap */,
+				8C4268A7E54B9B3FFDD8F7494724ABBF /* Pods-SKFSqliteLib_Tests-acknowledgements.markdown */,
+				D1CA342E7A49A582B6817C1BA17373C8 /* Pods-SKFSqliteLib_Tests-acknowledgements.plist */,
+				53658FB23A78E79549CE565FCC3225CD /* Pods-SKFSqliteLib_Tests-dummy.m */,
+				B092B61B9847A436324875EF078E3F8C /* Pods-SKFSqliteLib_Tests-frameworks.sh */,
+				B2EEA1335BC9115A5D3BF93B38B8306F /* Pods-SKFSqliteLib_Tests-resources.sh */,
+				DE6E46C0F1422ABAF5A3D06EA296B9D1 /* Pods-SKFSqliteLib_Tests-umbrella.h */,
+				E137B1E20182C5D091D6ACE63E2B3B85 /* Pods-SKFSqliteLib_Tests.debug.xcconfig */,
+				49623B612EE1A98211971088DDBCDB3A /* Pods-SKFSqliteLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKFSqliteLib_Tests";
+			path = "Target Support Files/Pods-SKFSqliteLib_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA95343324EA75F0EEEF79BD897CCB71 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				935C21828A9E009B14471C4277F2548D /* SKFModelTool.h */,
+				906EC6393CED3B4CBED63756BA52CDF8 /* SKFModelTool.m */,
+				1E43A04B31A2D5C53A49B63DBD5D88B4 /* SKFSqliteModelTool.h */,
+				0E556CF1466838093AEEB505B2654503 /* SKFSqliteModelTool.m */,
+				83F51D5315606429CD9E2C215893241E /* SKFSqliteTool.h */,
+				63248492C083A627412C471BC20F338A /* SKFSqliteTool.m */,
+				25F045887D222351EDA12E0AE4B89C57 /* SKFTableTool.h */,
+				3B844E1842196DDCD4AB7F28E6B676FC /* SKFTableTool.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		033D8067576BB96A6185E4F82CF43C0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5A836BA98C823AA76930B0056DEB6F /* Pods-SKFSqliteLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167738C23FFD16D040512D19B8CB3995 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B205E88958E549AD0098DEBF2269459 /* Pods-SKFSqliteLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0ECB6FE874F1C67197CC9DC89DE2A75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4FA6EE4939601331C7FE7B59518521 /* SKFModelTool.h in Headers */,
+				50FB7B682189155B11006DEB2E955F0F /* SKFSqliteLib-umbrella.h in Headers */,
+				AF10363DE0CB69A20780C72D5E33AC31 /* SKFSqliteModelTool.h in Headers */,
+				AE6D9AE94B1A1E9F1A13786B94C0AB37 /* SKFSqliteTool.h in Headers */,
+				F94C500727F887E90B7EDBA14B4E56FA /* SKFTableTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B16F661C9AD41E652A544C195F2F02C /* SKFSqliteLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE1B7286D8017CC2A5834D0A0455F5D /* Build configuration list for PBXNativeTarget "SKFSqliteLib" */;
+			buildPhases = (
+				352FAD41DF583BA819315E67BC317C7C /* Sources */,
+				9CFD7CAEE3BA94CB5F140CB04F2F2E41 /* Frameworks */,
+				D0ECB6FE874F1C67197CC9DC89DE2A75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKFSqliteLib;
+			productName = SKFSqliteLib;
+			productReference = B02AD836BEE702A6DA1E6A684D4B7903 /* SKFSqliteLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0B8173C42EB3094D1BA1BE9C6C8A581 /* Pods-SKFSqliteLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3781969C182A58E5B1E68860673EB2 /* Build configuration list for PBXNativeTarget "Pods-SKFSqliteLib_Tests" */;
+			buildPhases = (
+				A674A90E4A8B8DEB6820851418C853E0 /* Sources */,
+				62087CEFE40DF45AC73DBC82AE504957 /* Frameworks */,
+				033D8067576BB96A6185E4F82CF43C0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SKFSqliteLib_Tests";
+			productName = "Pods-SKFSqliteLib_Tests";
+			productReference = 850AAC74B4773395E250803FABBE7700 /* Pods_SKFSqliteLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB9EBF4BECB2F2AD86FDC69E99C7CCA3 /* Pods-SKFSqliteLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2B389E1C55DC5BEE01D2AD79EDCED7 /* Build configuration list for PBXNativeTarget "Pods-SKFSqliteLib_Example" */;
+			buildPhases = (
+				B0AACDB7BFE6CACB2F5C85084869936A /* Sources */,
+				4B9E884030351EE1D514EE03213C9E21 /* Frameworks */,
+				167738C23FFD16D040512D19B8CB3995 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D77CC06EF335EA92F09A9C5936C1602 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKFSqliteLib_Example";
+			productName = "Pods-SKFSqliteLib_Example";
+			productReference = A0BC1F5F0D39BF56C6CA5E65B4138F7D /* Pods_SKFSqliteLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 19707708FDC859237E17B8465111A693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9EBF4BECB2F2AD86FDC69E99C7CCA3 /* Pods-SKFSqliteLib_Example */,
+				A0B8173C42EB3094D1BA1BE9C6C8A581 /* Pods-SKFSqliteLib_Tests */,
+				6B16F661C9AD41E652A544C195F2F02C /* SKFSqliteLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		352FAD41DF583BA819315E67BC317C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A669A52299966CD2AC4E095BE792254C /* SKFModelTool.m in Sources */,
+				1E20F6441FDA5AA8B01FD943622C20BB /* SKFSqliteLib-dummy.m in Sources */,
+				690C814F3D5F81B5E4BFFE1EF94B7A3F /* SKFSqliteModelTool.m in Sources */,
+				31F2818EA6312F821B85469C7AF2859B /* SKFSqliteTool.m in Sources */,
+				21FEFB505826BD7F3A8F364756E2D5D3 /* SKFTableTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A674A90E4A8B8DEB6820851418C853E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DF60246799D6221AEFBEB188F6D0A2 /* Pods-SKFSqliteLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0AACDB7BFE6CACB2F5C85084869936A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D51E9F548136E7A43370D731FE204D /* Pods-SKFSqliteLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D77CC06EF335EA92F09A9C5936C1602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKFSqliteLib;
+			target = 6B16F661C9AD41E652A544C195F2F02C /* SKFSqliteLib */;
+			targetProxy = 88626420905DFA86D8A633F51F8FE342 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14FB28BCB4B05BCEBE7118D3419371D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB29A6FA1B914574A8702D2612C85A7 /* Pods-SKFSqliteLib_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFSqliteLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFSqliteLib_Example/Pods-SKFSqliteLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKFSqliteLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		523C0CEAE649C6A519B80E2FD930EBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49623B612EE1A98211971088DDBCDB3A /* Pods-SKFSqliteLib_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFSqliteLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFSqliteLib_Tests/Pods-SKFSqliteLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKFSqliteLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BBA3BE5472CDD3FDE479A5AC2EE6E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E137B1E20182C5D091D6ACE63E2B3B85 /* Pods-SKFSqliteLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFSqliteLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFSqliteLib_Tests/Pods-SKFSqliteLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKFSqliteLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E4BF2DAD40F1EBFB2F8A3AD16B5A9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802A6FEBB6F93630CB8A2A0F3AF5D4C2 /* SKFSqliteLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKFSqliteLib/SKFSqliteLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKFSqliteLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKFSqliteLib/SKFSqliteLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SKFSqliteLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE5A0EBB094D65C093594B5FF2728660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802A6FEBB6F93630CB8A2A0F3AF5D4C2 /* SKFSqliteLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SKFSqliteLib/SKFSqliteLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKFSqliteLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKFSqliteLib/SKFSqliteLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SKFSqliteLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC10D7206631596FDDC862ABFFE8D8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FF2E8D638291D97BDFAA53CE2AFB91 /* Pods-SKFSqliteLib_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SKFSqliteLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKFSqliteLib_Example/Pods-SKFSqliteLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SKFSqliteLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE1B7286D8017CC2A5834D0A0455F5D /* Build configuration list for PBXNativeTarget "SKFSqliteLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5A0EBB094D65C093594B5FF2728660 /* Debug */,
+				9E4BF2DAD40F1EBFB2F8A3AD16B5A9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2B389E1C55DC5BEE01D2AD79EDCED7 /* Build configuration list for PBXNativeTarget "Pods-SKFSqliteLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14FB28BCB4B05BCEBE7118D3419371D2 /* Debug */,
+				FC10D7206631596FDDC862ABFFE8D8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3781969C182A58E5B1E68860673EB2 /* Build configuration list for PBXNativeTarget "Pods-SKFSqliteLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBA3BE5472CDD3FDE479A5AC2EE6E43 /* Debug */,
+				523C0CEAE649C6A519B80E2FD930EBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

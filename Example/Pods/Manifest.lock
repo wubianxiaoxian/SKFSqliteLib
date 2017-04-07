@@ -1,0 +1,16 @@
+PODS:
+  - SKFSqliteLib (0.1.0)
+
+DEPENDENCIES:
+  - SKFSqliteLib (from `../`)
+
+EXTERNAL SOURCES:
+  SKFSqliteLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKFSqliteLib: cbc5471bf8d32dbf6602c68514c94dd2c33c863e
+
+PODFILE CHECKSUM: 89391d628931ba3dd8cf8a65628a0b7fb7058d60
+
+COCOAPODS: 1.2.0

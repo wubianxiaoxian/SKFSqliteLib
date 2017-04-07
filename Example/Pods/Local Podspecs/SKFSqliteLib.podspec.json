@@ -1,0 +1,23 @@
+{
+  "name": "SKFSqliteLib",
+  "version": "0.1.0",
+  "summary": "SKFSqliteLib.",
+  "description": "SKFSqliteLib xxxxxxxxxxxxxxxx.",
+  "homepage": "https://github.com/wubianxiaoxian/SKFSqliteLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wubianxiaoxian": "xx@xx.com"
+  },
+  "source": {
+    "git": "https://github.com/wubianxiaoxian/SKFSqliteLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SKFSqliteLib/Classes/**/*",
+  "libraries": "sqlite3"
+}

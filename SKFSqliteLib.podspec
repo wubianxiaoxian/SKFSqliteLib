@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKFSqliteLib'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SKFSqliteLib.'
+  s.version          = '0.1.1'
+  s.summary          = ' SKFSqliteLib.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SKFSqliteLib xxxxxxxxxxxxxxxx.
                        DESC
 
   s.homepage         = 'https://github.com/wubianxiaoxian/SKFSqliteLib'
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SKFSqliteLib/Classes/**/*'
+  s.library="sqlite3"
   
   # s.resource_bundles = {
   #   'SKFSqliteLib' => ['SKFSqliteLib/Assets/*.png']
